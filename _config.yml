@@ -1,0 +1,63 @@
+# Site settings
+title: "Raybo.org"
+tagline: "Learn practical web skills"
+description: "Learn full-stack developer skills with a clear, practical style."
+email: ray@planetoftheweb.com
+twitteruser: "@planetoftheweb"
+logo: "/assets/images/powship.svg" #blog logo
+trk: "?trk=insiders_6787408_learning"
+cover: "/assets/images/hero.jpg" # blog cover
+
+author:
+  firstname: "Ray"
+  name: "Ray Villalobos"
+  bio: "Christian. Father of 8. I love to help people improve their lives by learning front-end design and full stack development skills with a clear, practical approach."
+
+author_image: "/assets/images/author.jpg"
+ldcjsonfeed: http://planetoftheweb.com/i/courses.php?author=832401&limit=0&filter.includes=Title,ShortDescription,DurationInSeconds,URLs,ID,WelcomeVideoId,Thumbnails.filename
+
+plugins: [jekyll-paginate]
+paginate: 10
+paginate_path: "page:num"
+
+url: "http://raybo.org" # the base hostname & protocol for your site
+
+# social icons and sharing options
+social:
+  - icon:	twitter
+    url:	https://twitter.com/planetoftheweb
+    desc: Follow me on twitter
+    share_url: http://twitter.com/share
+    share_title: ?text=
+    share_link: "&amp;url="
+
+  - icon: facebook
+    url:  https://facebook.com/viewsource
+    desc: Connect with me facebook
+    share_url: //www.facebook.com/sharer.php
+    share_title: ?t=
+    share_link: "&amp;u="
+
+  - icon: linkedin
+    url:  https://linkedin.com/in/planetoftheweb
+    desc: Connect with me on LinkedIn
+
+  - icon:	github
+    url:	https://github.com/planetoftheweb
+    desc:	Fork me on github
+
+  - icon:	google-plus
+    url:	https://plus.google.com/+RayVillalobos0
+    desc:	Add me on google+
+
+  - icon:	dribbble
+    url:	https://dribbble.com/planetoftheweb
+    desc:	Follow me on dribbble
+
+  - icon:	flickr
+    url:	https://www.flickr.com/photos/planetoftheweb/sets/72157602932636630/
+    desc:	My flickr portfolio
+
+  - icon:	youtube
+    url:	https://www.youtube.com/user/planetoftheweb
+    desc:	Subscribe to my youtube channel

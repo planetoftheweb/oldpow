@@ -1,0 +1,16 @@
+{% assign cat =  page.category %}
+
+{% if cat %}
+<span class="category">
+
+<a href="/{{ cat }}">
+  {% case cat %}
+  <span class="icon">
+    {% when 'blog' %}
+    <i class="fas fa-align-left"></i>
+  </span>
+  {% endcase %}
+  {{ cat }}
+</a>
+</span>
+{% endif %}
